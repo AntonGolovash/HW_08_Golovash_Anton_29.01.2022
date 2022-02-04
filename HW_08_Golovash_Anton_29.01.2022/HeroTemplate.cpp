@@ -25,16 +25,16 @@ void HeroTemplate::useWeapon(int usingWeapon)
         cout << "Choose your weapon" << endl;
         break;
     case 1:
-        cout << "Using weapon1" << typeid(this).name() << "\t" << this << endl;
+        cout << typeid(this).name() << "\tUsing weapon1" << this << endl;
         break;
     case 2:
-        cout << "Using weapon2" << typeid(this).name() << "\t" << this << endl;
+        cout << typeid(this).name() << "\tUsing weapon2" << this << endl;
         break;
     case 3:
-        cout << "Using weapon3" << typeid(this).name() << "\t" << this << endl;
+        cout << typeid(this).name() << "\tUsing weapon3" << this << endl;
         break;
     case 4:
-        cout << "Using weapon4" << typeid(this).name() << "\t" << this << endl;
+        cout << typeid(this).name() << "\tUsing weapon4" << this << endl;
         break;
     default:
         break;

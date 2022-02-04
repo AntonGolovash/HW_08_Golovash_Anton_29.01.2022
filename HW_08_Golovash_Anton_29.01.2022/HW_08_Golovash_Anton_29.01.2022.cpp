@@ -55,4 +55,13 @@ int main()
 	jett2.useWeapon(jett2.getWeapon(1));
 	jett2.printHero();
 
+	skye2.useWeapon(skye2.getWeapon(1));
+	skye2.printHero();
+
+	reyna2.useWeapon(reyna2.getWeapon(1));
+	reyna2.printHero();
+
+	phoenix2.useWeapon(phoenix2.getWeapon(1));
+	phoenix2.printHero();
+
 }

@@ -13,5 +13,4 @@ public:
 
 private:
 	int usingWeapon = 0;
-
 };
