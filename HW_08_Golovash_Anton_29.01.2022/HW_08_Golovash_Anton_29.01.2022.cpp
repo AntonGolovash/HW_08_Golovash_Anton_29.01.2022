@@ -52,7 +52,7 @@ int main()
 	herousMap.insert(pair(reyna2,3));
 	herousMap.insert(pair(phoenix2,4));
 
-	jett2.getWeapon(1);
+	jett2.useWeapon(jett2.getWeapon(1));
 	jett2.printHero();
 
 }

@@ -8,7 +8,7 @@ public:
 	HeroTemplate();
 	~HeroTemplate();
 	int getWeapon(int weaponNumber);
-	void useWeapon();
+	void useWeapon(int usingWeapon);
 	void printHero();
 
 private:
