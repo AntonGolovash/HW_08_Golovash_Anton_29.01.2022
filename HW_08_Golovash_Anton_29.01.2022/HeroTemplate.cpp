@@ -43,7 +43,7 @@ void HeroTemplate::useWeapon(int usingWeapon)
 
 void HeroTemplate::printHero()
 {
-
+    
 }
 
 
