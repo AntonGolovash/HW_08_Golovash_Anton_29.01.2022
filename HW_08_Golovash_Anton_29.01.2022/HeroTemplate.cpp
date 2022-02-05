@@ -3,6 +3,7 @@
 
 HeroTemplate::HeroTemplate()
 {
+    this->heroTemplate = new HeroTemplate();
 	cout << "HeroTemplate constructor" << endl;
 }
 
@@ -41,10 +42,9 @@ void HeroTemplate::useWeapon(int usingWeapon)
     }
 }
 
-void HeroTemplate::printHero()
+void HeroTemplate::printHero(HeroTemplate* hero)
 {
-    
-}
 
+}
 
 

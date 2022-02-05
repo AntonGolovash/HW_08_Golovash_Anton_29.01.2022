@@ -15,6 +15,7 @@ using namespace std;
 
 int main()
 {
+	//----------------------------------------------
 	int choice = 0;
 	cout << "Choose the Hero\n"
 		"Jett, Enter 1\n"
@@ -39,11 +40,13 @@ int main()
 	default:
 		break;
 	}
+	//----------------------------------------------
 
 	Jett jett2;
 	Skye skye2;
 	Reyna reyna2;
 	Phoenix phoenix2;
+
 	map<HeroTemplate, int> herousMap;
 	typedef pair<HeroTemplate, int> pair;
 
@@ -53,15 +56,15 @@ int main()
 	herousMap.insert(pair(phoenix2,4));
 
 	jett2.useWeapon(jett2.getWeapon(1));
-	jett2.printHero();
+	jett2.printHero(jett2.heroTemplate);
 
 	skye2.useWeapon(skye2.getWeapon(2));
-	skye2.printHero();
+	skye2.printHero(skye2.heroTemplate);
 
 	reyna2.useWeapon(reyna2.getWeapon(3));
-	reyna2.printHero();
+	reyna2.printHero(reyna2.heroTemplate);
 
 	phoenix2.useWeapon(phoenix2.getWeapon(4));
-	phoenix2.printHero();
+	phoenix2.printHero(phoenix2.heroTemplate);
 
 }
